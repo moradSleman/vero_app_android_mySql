@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/menuitem_posts"
+        android:icon="@drawable/post3"
+        android:title="@string/ui_menu_posts"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/menuitem_profile"
+        android:icon="@drawable/profile5"
+        android:title="@string/ui_menu_profile"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/menuitem_friends"
+        android:icon="@drawable/friendspng"
+        android:title="@string/ui_menu_friends"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/menuitem_logout"
+        android:icon="@drawable/logout"
+        android:title="@string/ui_menu_logout"
+        app:showAsAction="ifRoom">
+    </item>
+
+
+
+
+
+</menu>
